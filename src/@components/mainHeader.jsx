@@ -24,5 +24,6 @@ const Header = styled.header`
   background-color: ${({ theme }) => theme.colors.skyblue};
 `;
 const Title = styled.h1`
+  color: ${({ theme }) => theme.colors.blue};
   ${({ theme }) => theme.fonts.title};
 `;
